@@ -1,8 +1,8 @@
-# push\_swap
+# optimized-stack-sort
 
 ## Introduction
 
-The `push_swap` project is an algorithmic challenge from 42 School that focuses on sorting a stack of numbers using a limited set of operations. The goal is to implement an efficient sorting algorithm that minimizes the number of moves required to sort the stack.
+The `optimized-stack-sort` project is an algorithmic challenge that focuses on sorting a stack of numbers using a limited set of operations. The goal is to implement an efficient sorting algorithm that minimizes the number of moves required to sort the stack.
 
 ## Features
 
@@ -24,8 +24,6 @@ The program utilizes the following stack operations:
 - `rra` (reverse rotate a): Shift all elements of stack A down by one position.
 - `rrb` (reverse rotate b): Shift all elements of stack B down by one position.
 
-   
-
 ## Compilation and Usage
 
 ### Compilation
@@ -36,14 +34,14 @@ To compile the project, run:
 make all
 ```
 
-This generates the `push_swap` executable.
+This generates the `optimized-stack-sort` executable.
 
 ### Usage
 
 Run the program with a sequence of numbers as arguments:
 
 ```sh
-./push_swap 4 67 3 87 23
+./optimized-stack-sort 4 67 3 87 23
 ```
 
 This will output the sequence of operations needed to sort the given numbers.
@@ -53,7 +51,7 @@ This will output the sequence of operations needed to sort the given numbers.
 To validate the correctness of the sorting algorithm, you can use the `checker` program (if implemented):
 
 ```sh
-ARG="4 67 3 87 23"; ./push_swap $ARG | ./checker_linux $ARG
+ARG="4 67 3 87 23"; ./optimized-stack-sort $ARG | ./checker_linux $ARG
 ```
 
 ## Algorithm Overview
@@ -70,4 +68,5 @@ The sorting algorithm is designed to efficiently sort numbers using the given op
 
 - The program is designed to use the minimum number of operations for sorting.
 - Advanced techniques like median selection and optimized pivot points are used.
-- Benchmarking is done against 42's test cases to ensure efficiency.
+- Benchmarking is done against test cases to ensure efficiency.
+
