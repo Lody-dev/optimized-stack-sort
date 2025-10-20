@@ -4,6 +4,10 @@
 
 The `optimized-stack-sort` project is an algorithmic challenge that focuses on sorting a stack of numbers using a limited set of operations. The goal is to implement an efficient sorting algorithm that minimizes the number of moves required to sort the stack.
 
+## Demo
+![Demo](demo.gif)
+
+
 ## Features
 
 - Efficient sorting of integer sequences using stack-based operations.
